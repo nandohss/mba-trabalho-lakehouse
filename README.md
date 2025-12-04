@@ -20,20 +20,17 @@ Conceitual                                          |  Logico
 - **Spark/Iceberg:** Processamento e persistência ACID
 
 ---
-## Requisitos Técnicos e Demonstrações Obrigatórias
+## Requisitos Técnicos
 
 Abaixo estão os requisitos obrigatórios do projeto:
 
 - **UPSERT:** Atualizar registros existentes com base em chave primária, medindo performance
 - **DELETE:** Remover registros específicos com garantia transacional
 - **Time Travel:** Consultar versões anteriores da tabela para auditoria/recuperação (opcional, mas recomendado)
-- **Comparativo de performance:** Operações em formato Open Table (Iceberg) vs. Parquet puro
 
 ### Entregáveis
-
 - Diagrama do fluxo de dados
 - Documentação das transformações aplicadas
-- Análise de performance das operações ACID
 - README detalhado
 
 ---
@@ -217,13 +214,7 @@ order_v1.show()
 Permite auditar modificações, recuperar dados antigos e garantir rastreabilidade das operações ACID.
 
 ---
-### 5. Comparativo de Performance OTF x Parquet puro
-
-> **Sugestão**  
-Execute comandos/queries de leitura, upsert e delete no Parquet e compare tempo de execução, tamanho dos arquivos e histórico de transações com Iceberg. Documente os resultados no repositório.
-
----
-### 6. Validação da Qualidade dos Dados (Great Expectations)
+### 5. Validação da Qualidade dos Dados (Great Expectations)
 
 O notebook inclui diversos testes de qualidade utilizando [Great Expectations], como nulos, unicidade, faixas, regex, etc.
 
@@ -266,9 +257,9 @@ print(result)
 ## Autor
 
 Trabalho desenvolvido por 
-Natan
-Fernando
-Taimara
-Guilherme
-Fabio
-Gabriel
+Natan Milanez Polly 10747137
+Fernando Sousa Silva 10739880
+Taimara Liz de Souza 1036900
+Guilherme Giovanetti Cuzner 10204618
+Fabio Olivetto Mesquita 10747149
+Gabriel Barbosa de Souza 10747173
