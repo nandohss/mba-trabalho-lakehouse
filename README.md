@@ -259,7 +259,7 @@ print(result)
 Trabalho desenvolvido por 
 Natan Milanez Polly 10747137
 Fernando Sousa Silva 10739880
-Taimara Liz de Souza 1036900
+Taimara Liz de Souza 10369003
 Guilherme Giovanetti Cuzner 10204618
 Fabio Olivetto Mesquita 10747149
 Gabriel Barbosa de Souza 10747173
